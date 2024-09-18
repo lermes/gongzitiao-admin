@@ -7,7 +7,7 @@
     },
     
     "outputDirectory": "public",
-    
+    "installCommand": "dnf install openssl-libs",
     "routes": [
         {
             "src": "/build/(.*)",

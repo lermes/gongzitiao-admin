@@ -5,7 +5,9 @@
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.7.1" }
     },
-    
+    "engines": {
+        "node": "18.x"
+    },
     "outputDirectory": "public",
     "installCommand": "dnf install openssl-libs",
     "routes": [
